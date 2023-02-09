@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poker Shop</title>
+    <link href = "./css/banner.css" rel = "stylesheet" type = "text/css">
+    <style>
+        #contactForm { max-width: 50% } /* Keeps the form in 1 column */
+    </style>
+    <script defer type='text/javascript' src='./js/contact.js'></script>
+</head>
+<body>
+    <header>
+        <div id="bannerBox">
+            <img src="./images/chipsBanner.jpg" id="chipsBanner" alt="Banner image of poker chips" style="opacity: 0.3;">
+            <div id="bannerCenter">PokerShop</div>
+            <div id="bannerBottom">
+                <table id="menuTable">
+                    <tr>
+                        <td>
+                            <a href="./index.html">Home</a>
+                        </td>
+                        <td>
+                            <a href="./shop.html">Shop</a>
+                        </td>
+                        <td>
+                            <a href="./links.html">Links</a>
+                        </td>
+                        <td>
+                            <a href="./quotes.html">Quotes</a>
+                        </td>
+                        <td>
+                            <a href="./basket.html">Basket</a>
+                        </td>
+                        <td>
+                            <a href="./contact.html">Contact</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </header>
+
+    <main style="width: calc(80% + 80px); margin-left: auto; margin-right: auto;">
+        <div>
+            <h2>
+                Contact us:
+            </h2>
+            <section>
+                <form id="contactForm"><!--This is the form containing 4 input boxes and the button to send the message-->
+                        <textarea rows="1" cols="100" name="Box0" id="Box0" placeholder="Please enter your name:"></textarea>
+                        <textarea rows="1" cols="100" name="Box1" id="Box1" placeholder="Please enter your email:"></textarea>
+                        <textarea rows="1" cols="100" name="Box2" id="Box2" placeholder="Please enter the subject:"></textarea>
+                        <textarea rows="6" cols="100" name="Box3" id="Box3" placeholder="Please enter your message:"></textarea>
+                    <br>
+                    <button type="button" id="addButton" onclick="submitMessage()">Submit</button>
+                </form>
+            </section>
+            <h4 id="messageSent"></h3>
+
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

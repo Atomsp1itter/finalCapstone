@@ -1,0 +1,39 @@
+Date : 2023-01-30 08:45:12
+Directory : /Users/simon/Dropbox/SG22100004188/Web Development Bootcamp/T42
+Total : 13 files,  1129 codes, 79 comments, 184 blanks, all 1392 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| HTML       |          6 |        638 |          0 |         25 |        663 |
+| JavaScript |          6 |        406 |         79 |        154 |        639 |
+| CSS        |          1 |         85 |          0 |          5 |         90 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                         | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                            |         13 |      1,129 |         79 |        184 |      1,392 |
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                     | language   | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /Users/simon/Dropbox/SG22100004188/Web Development Bootcamp/T42/basket.html  | HTML       |         54 |          0 |          4 |         58 |
+| /Users/simon/Dropbox/SG22100004188/Web Development Bootcamp/T42/basket.js    | JavaScript |          4 |          4 |          6 |         14 |
+| /Users/simon/Dropbox/SG22100004188/Web Development Bootcamp/T42/contact.html | HTML       |         63 |          0 |          3 |         66 |
+| /Users/simon/Dropbox/SG22100004188/Web Development Bootcamp/T42/contact.js   | JavaScript |         38 |          7 |         13 |         58 |
+| /Users/simon/Dropbox/SG22100004188/Web Development Bootcamp/T42/index.html   | HTML       |        134 |          0 |          2 |        136 |
+| /Users/simon/Dropbox/SG22100004188/Web Development Bootcamp/T42/links.html   | HTML       |        105 |          0 |          4 |        109 |
+| /Users/simon/Dropbox/SG22100004188/Web Development Bootcamp/T42/links.js     | JavaScript |        105 |         19 |         37 |        161 |
+| /Users/simon/Dropbox/SG22100004188/Web Development Bootcamp/T42/myScript.js  | JavaScript |        105 |         19 |         37 |        161 |
+| /Users/simon/Dropbox/SG22100004188/Web Development Bootcamp/T42/myStyles.css | CSS        |         85 |          0 |          5 |         90 |
+| /Users/simon/Dropbox/SG22100004188/Web Development Bootcamp/T42/quotes.html  | HTML       |        112 |          0 |          4 |        116 |
+| /Users/simon/Dropbox/SG22100004188/Web Development Bootcamp/T42/quotes.js    | JavaScript |         49 |         11 |         24 |         84 |
+| /Users/simon/Dropbox/SG22100004188/Web Development Bootcamp/T42/shop.html    | HTML       |        170 |          0 |          8 |        178 |
+| /Users/simon/Dropbox/SG22100004188/Web Development Bootcamp/T42/shop.js      | JavaScript |        105 |         19 |         37 |        161 |
+| Total                                                                        |            |      1,129 |         79 |        184 |      1,392 |
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

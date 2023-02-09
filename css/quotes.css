@@ -1,0 +1,8 @@
+#quoteTable1 img{width: 100%;}
+
+#quoteTable1 td {width: 21em;}
+
+#quoteTable1 td div {
+    margin: 2vw;
+    font-size: 1.2em;
+}

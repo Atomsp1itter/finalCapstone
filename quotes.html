@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poker Shop</title>
+    <link href = "./css/banner.css" rel = "stylesheet" type = "text/css">
+    <link href = "./css/quotes.css" rel = "stylesheet" type = "text/css">
+    <link href = "./css/links.css" rel = "stylesheet" type = "text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script defer type='text/javascript' src='./js/quotes.js'></script>
+    <script defer type='text/javascript' src='./js/links.js'></script>
+</head>
+<body onload="existingComments();">
+    <header>
+        <div id="bannerBox">
+            <img src="./images/chipsBanner.jpg" id="chipsBanner" alt="Banner image of poker chips" style="opacity: 0.3;">
+            <div id="bannerCenter">PokerShop</div>
+            <div id="bannerBottom">
+                <table id="menuTable">
+                    <tr>
+                        <td>
+                            <a href="./index.html">Home</a>
+                        </td>
+                        <td>
+                            <a href="./shop.html">Shop</a>
+                        </td>
+                        <td>
+                            <a href="./links.html">Links</a>
+                        </td>
+                        <td>
+                            <a href="./quotes.html">Quotes</a>
+                        </td>
+                        <td>
+                            <a href="./basket.html">Basket</a>
+                        </td>
+                        <td>
+                            <a href="./contact.html">Contact</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </header>
+
+    <main style="width: calc(80% + 80px); margin-left: auto; margin-right: auto;">
+        <div>
+            <h2>
+                Poker quotes
+            </h2>
+            <section>
+                <table id="quoteTable1">
+                    <tr>
+                        <td>
+                            <div>
+                                <p>"If you can't spot the sucker in your first half hour at the table, then you are the sucker."</p>
+                                <p align="right">Mike McDermott (Rounders)</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="heartImage">
+                                <i onclick="likeHeart(event)" class="fa fa-heart-o"></i>
+                                <img src="./images/chipStack2.jpg" alt="Image of a poker player with a large chip stack">
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p>"The one who bets the most wins. The cards are just a tiebreaker."</p>
+                                <p align="right">Sammy Farha</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="heartImage">
+                                <i onclick="likeHeart(event)" class="fa fa-heart-o"></i>
+                                <img src="./images/flop.jpg" alt="Image of the 'flop' in poker">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table id="quoteTable1">
+                    <tr>
+                        <td>
+                            <div class="heartImage">
+                                <i onclick="likeHeart(event)" class="fa fa-heart-o"></i>
+                                <img src="./images/pokerTournament2.jpg" alt="Image of a poker tournament">
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p>"You will show your poker greatness by the hands you fold, not the hands you play."</p>
+                                <p align="right">Dan Reed</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="heartImage">
+                                <i onclick="likeHeart(event)" class="fa fa-heart-o"></i>
+                                <img src="./images/kingKing.jpg" alt="Image of 'pocket kings' poker hand">
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p>"Poker is a game of skill. It's only gambling if you don't know what you're doing."</p>
+                                <p align="right">Simon Greenwood</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <br>
+            <section id="commentSection">
+                <h3>Add your own quotes or comments!</h3>
+                <form><!--This is the form containing 4 input boxes and the button to send the message-->
+                    <textarea rows="1" cols="100" name="commnetBox0" id="commentBox0" placeholder="Please enter your username:"></textarea>
+                    <textarea rows="3" cols="100" name="commentBox1" id="commentBox1" placeholder="Please enter your comment:"></textarea>
+                <br>
+                <button type="button" id="addButton" onclick="submitComment()">Submit</button>
+                </form>
+                <br>
+                <h3>Previous quotes and comments:</h3>
+                <table id="commentsTable">
+                    
+                </table>
+            </section>
+
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

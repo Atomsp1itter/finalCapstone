@@ -1,0 +1,31 @@
+
+#linksTable1 img{width: 100%;}
+
+#linksTable1 td {
+    width: 21em;
+}
+#linksTable1 td div {
+    margin: 2vw;
+    font-size: 1.3em;
+    align-content: center;
+}
+
+.heartImage {
+    margin: 0px !important;
+    position: relative;
+}
+.fa {
+    font-size: 25px !important;
+    color: gray;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+
+.liked {
+    color: red;
+}
+
+.unliked {
+    color: gray;
+}

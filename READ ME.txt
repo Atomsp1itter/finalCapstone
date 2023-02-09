@@ -1,0 +1,17 @@
+READ ME T42
+
+A couple of notes about this task / website.
+
+This task has taken me ages. I have had a mentor call with Jason, one with Leon and I believe also one with Christiaan to get this task done.
+
+All the below functionality was agreed with the mentors as acceptable for this task.
+
+I have accomplished the save for later functionality by allowing the user to save the contents of their basket in local storage, so that when they come back to the website later, their selections are still sitting in the basket and they can still decide to purchase.
+
+As mentioned in the js file, please don't add more than 16 rolls of any chip colour to the basket, as I needed to get this task done so didn't include error handling for this eventuality yet.
+
+Comments (on the Quotes page) functionality is self-explanatory - the comments appear on the page in order of most recent first.
+
+The 'like' functionality is for any photo on the website - the heart icon can be toggled on and off using css classes. NB mentor said the state didn't need to be saved between sessions for task instructions to be fulfilled.
+
+The messages from the contact form are saved in local storage - this is to mimic the functionality of a database where the messages would be saved until dealt with / replied to.

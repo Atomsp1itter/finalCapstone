@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(230, 230, 230);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1vw;
+}
+#bannerBox {
+    position: relative;
+    text-align: center;
+}
+#bannerCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    font-size: 10vw;
+    letter-spacing: -1vw;
+    opacity: 0.75;
+}
+#bannerBottom {
+    position: absolute;
+    bottom: calc(-5% + 10px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    font-size: 2.5vw;
+    letter-spacing: -0.25vw;
+    opacity: 0.75;
+}
+#chipsBanner {
+    width: calc(80% + 80px);
+    border: 0.4em solid black;
+}
+#menuTable {
+    border: 0.1em;
+    border-color: black;
+    border-style: outset;
+}
+#menuTable td {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 0.3vw;
+}
+#menuTable a {color: rgba(0, 80, 7, 0.9)}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poker Shop</title>
+    <link href = "./css/banner.css" rel = "stylesheet" type = "text/css">
+    <link href = "./css/shop.css" rel = "stylesheet" type = "text/css">
+    <script defer type='text/javascript' src='./js/shop.js'></script>
+</head>
+<body>
+    <header>
+        <div id="bannerBox">
+            <img src="./images/chipsBanner.jpg" id="chipsBanner" alt="Banner image of poker chips" style="opacity: 0.3;">
+            <div id="bannerCenter">PokerShop</div>
+            <div id="bannerBottom">
+                <table id="menuTable">
+                    <tr>
+                        <td>
+                            <a href="./index.html">Home</a>
+                        </td>
+                        <td>
+                            <a href="./shop.html">Shop</a>
+                        </td>
+                        <td>
+                            <a href="./links.html">Links</a>
+                        </td>
+                        <td>
+                            <a href="./quotes.html">Quotes</a>
+                        </td>
+                        <td>
+                            <a href="./basket.html">Basket</a>
+                        </td>
+                        <td>
+                            <a href="./contact.html">Contact</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </header>
+
+    <main style="width: calc(80% + 80px); margin-left: auto; margin-right: auto;">
+        <div>
+            <h2>
+                Poker shop
+            </h2>
+
+            <section>
+                <table id="shopTable1">
+                    <tr>
+                        <td class="imageBox">
+                            <img class="chipImage" src="./images/chipGreen.jpg" alt="Image of a green poker chip">
+                        </td>
+                        <td class="bulletBox">
+                            <div>
+                                <p>Green poker chip</p>
+                                <p>Often used as a 25&#162; chip</p>
+                                <form>
+                                    <input type="radio" id="1_roll" name="green" value=1>
+                                    <label for="1 roll - 25 chips - $4">1 roll (25 chips): $4</label><br>
+                                    <input type="radio" id="2_rolls" name="green" value=2>
+                                    <label for="2 rolls - 50 chips - $7">2 rolls (50 chips): $7</label><br>
+                                    <input type="radio" id="4_rolls" name="green" value=4>
+                                    <label for="4 rolls - 100 chips - $12">4 rolls (100 chips): $12</label><br>
+                                    <input type="radio" id="8_rolls" name="green" value=8>
+                                    <label for="8 rolls - 200 chips - $20">8 rolls (200 chips): $20</label>
+                                </form>
+                                <p><input type="submit" class="button" value="Add to basket" onclick="addToBasket(event)"></p>
+                            </div>
+                        </td>
+                        <td class="imageBox">
+                            <img class="chipImage" src="./images/chipWhite.jpg" alt="Image of a white poker chip">
+                        </td>
+                        <td class=".bulletBox">
+                            <div>
+                                <p>White poker chip</p>
+                                <p>Often used as a $10 chip</p>
+                                <form>
+                                    <input type="radio" id="1_roll" name="white" value=1>
+                                    <label for="1 roll - 25 chips - $4">1 roll (25 chips): $4</label><br>
+                                    <input type="radio" id="2_rolls" name="white" value=2>
+                                    <label for="2 rolls - 50 chips - $7">2 rolls (50 chips): $7</label><br>
+                                    <input type="radio" id="4_rolls" name="white" value=4>
+                                    <label for="4 rolls - 100 chips - $12">4 rolls (100 chips): $12</label><br>
+                                    <input type="radio" id="8_rolls" name="white" value=8>
+                                    <label for="8 rolls - 200 chips - $20">8 rolls (200 chips): $20</label>
+                                </form>
+                                <p><input type="submit" class="button" value="Add to basket" onclick="addToBasket(event)"></p>
+                            </div>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="imageBox">
+                            <img class="chipImage" src="./images/chipRed.jpg" alt="Image of a red poker chip">
+                        </td>
+                        <td class=".bulletBox">
+                            <div>
+                                <p>Red poker chip</p>
+                                <p>Often used as a $1 chip</p>
+                                <form>
+                                    <input type="radio" id="1_roll" name="red" value=1>
+                                    <label for="1 roll - 25 chips - $4">1 roll (25 chips): $4</label><br>
+                                    <input type="radio" id="2_rolls" name="red" value=2>
+                                    <label for="2 rolls - 50 chips - $7">2 rolls (50 chips): $7</label><br>
+                                    <input type="radio" id="4_rolls" name="red" value=4>
+                                    <label for="4 rolls - 100 chips - $12">4 rolls (100 chips): $12</label><br>
+                                    <input type="radio" id="8_rolls" name="red" value=8>
+                                    <label for="8 rolls - 200 chips - $20">8 rolls (200 chips): $20</label>
+                                </form>
+                                <p><input type="submit" class="button" value="Add to basket" onclick="addToBasket(event)"></p>
+                            </div>
+                        </td>
+                        <td class="imageBox">
+                            <img class="chipImage" src="./images/chipBlue.jpg" alt="Image of a blue poker chip">
+                        </td>
+                        <td class=".bulletBox">
+                            <div>
+                                <p>Blue poker chip</p>
+                                <p>Often used as a $50 chip</p>
+                                <form>
+                                    <input type="radio" id="1_roll" name="blue" value=1>
+                                    <label for="1 roll - 25 chips - $4">1 roll (25 chips): $4</label><br>
+                                    <input type="radio" id="2_rolls" name="blue" value=2>
+                                    <label for="2 rolls - 50 chips - $7">2 rolls (50 chips): $7</label><br>
+                                    <input type="radio" id="4_rolls" name="blue" value=4>
+                                    <label for="4 rolls - 100 chips - $12">4 rolls (100 chips): $12</label><br>
+                                    <input type="radio" id="8_rolls" name="blue" value=8>
+                                    <label for="8 rolls - 200 chips - $20">8 rolls (200 chips): $20</label>
+                                </form>
+                                <p><input type="submit" class="button" value="Add to basket" onclick="addToBasket(event)"></p>
+                            </div>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="imageBox">
+                            <img class="chipImage" src="./images/chipYellow.jpg" alt="Image of a yellow poker chip">
+                        </td>
+                        <td class=".bulletBox">
+                            <div>
+                                <p>Yellow poker chip</p>
+                                <p>Often used as a $5 chip</p>
+                                <form>
+                                    <input type="radio" id="1_roll" name="yellow" value=1>
+                                    <label for="1 roll - 25 chips - $4">1 roll (25 chips): $4</label><br>
+                                    <input type="radio" id="2_rolls" name="yellow" value=2>
+                                    <label for="2 rolls - 50 chips - $7">2 rolls (50 chips): $7</label><br>
+                                    <input type="radio" id="4_rolls" name="yellow" value=4>
+                                    <label for="4 rolls - 100 chips - $12">4 rolls (100 chips): $12</label><br>
+                                    <input type="radio" id="8_rolls" name="yellow" value=8>
+                                    <label for="8 rolls - 200 chips - $20">8 rolls (200 chips): $20</label>
+                                </form>
+                                <p><input type="submit" class="button" value="Add to basket" onclick="addToBasket(event)"></p>
+                            </div>
+                        </td>
+                        <td class="imageBox">
+                            <img class="chipImage" src="./images/chipOrange.jpg" alt="Image of a orange poker chip">
+                        </td>
+                        <td class=".bulletBox">
+                            <div>
+                                <p>Orange poker chip</p>
+                                <p>Often used as a $100 chip</p>
+                                <form>
+                                    <input type="radio" id="1_roll" name="orange" value=1>
+                                    <label for="1 roll - 25 chips - $4">1 roll (25 chips): $4</label><br>
+                                    <input type="radio" id="2_rolls" name="orange" value=2>
+                                    <label for="2 rolls - 50 chips - $7">2 rolls (50 chips): $7</label><br>
+                                    <input type="radio" id="4_rolls" name="orange" value=4>
+                                    <label for="4 rolls - 100 chips - $12">4 rolls (100 chips): $12</label><br>
+                                    <input type="radio" id="8_rolls" name="orange" value=8>
+                                    <label for="8 rolls - 200 chips - $20">8 rolls (200 chips): $20</label>
+                                </form>
+                                <p><input type="submit" class="button" value="Add to basket" onclick="addToBasket(event)"></p>
+                            </div>
+                        </td>
+
+                    </tr>
+                    
+                </table>
+            </section>
+            
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
